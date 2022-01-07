@@ -1,3 +1,13 @@
 <div class="phx-hero">
-  <h2>Hello World, from Phoenix!</h2>
+  <h1>Request Lifecycle</h1>
+  <h2>Endpoint</h2>
+  <h4>(Phoenix.Endpoint) - the endpoint contains the common and initial path that all requests go through. If you want something to happen on all requests, it goes to the endpoint.</h4>
+  <h2>Router</h2>
+  <h4>(Phoenix.Router) - the router is responsible for dispatching verb/path to controllers. The router also allows us to scope functionality. For example, some pages in your application may require user authentication, others may not.</h4>
+  <h2>Controller</h2>
+  <h4>(Phoenix.Controller) - the job of the controller is to retrieve request information, talk to your business domain, and prepare data for the presentation layer.</h4>
+  <h2>View</h2>
+  <h4>(Phoenix.View) - the view handles the structured data from the controller and converts it to a presentation to be shown to users.</h4>
+  <h2>Template</h2>
+  <h4>A template file has the following structure: NAME.FORMAT.TEMPLATING_LANGUAGE. ".heex" stands for "HTML+EEx". EEx is a library for embedding Elixir that ships as part of Elixir itself.</h4>
 </div>
